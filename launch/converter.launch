@@ -1,0 +1,5 @@
+<launch>
+  <node name="converter" pkg="rqt_joint_trajectory_plot" type="EE_tf_compare.py" output="screen"/>
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+
+</launch>

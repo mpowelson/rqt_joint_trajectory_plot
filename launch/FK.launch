@@ -1,0 +1,7 @@
+<launch>
+<!-- Launch this with a trajopt example and rviz to view the TF and robot moving -->
+  <node name="converter" pkg="rqt_joint_trajectory_plot" type="EE_tf_compare2.py" output="screen"/>
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" />
+
+
+</launch>
